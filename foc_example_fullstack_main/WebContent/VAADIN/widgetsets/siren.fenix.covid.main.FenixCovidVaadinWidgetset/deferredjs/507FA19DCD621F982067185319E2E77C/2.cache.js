@@ -1,0 +1,1 @@
+$wnd.siren_fenix_covid_main_FenixCovidVaadinWidgetset.runAsyncCallback2('Krb(2028,1,Ubf);_.wc=function nSc(){tuc((!muc&&(muc=new yuc),muc),this.a.d)};a2e(vi)(2);\n//# sourceURL=siren.fenix.covid.main.FenixCovidVaadinWidgetset-2.js\n')

@@ -1,0 +1,202 @@
+;;; 
+Export: Release 11.2.0.2.0 - Production on Thu Jul 25 09:29:14 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Starting "STATELESS_UNIT"."SYS_EXPORT_SCHEMA_01":  STATELESS_UNIT/******** schemas=STATELESS_UNIT directory=ECLIPSE_STATELESS_UNIT dumpfile=unit.dmp logfile=_backup.log 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 2.625 MB
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "STATELESS_UNIT"."ADR_BK_PARTY"             15.33 KB       1 rows
+. . exported "STATELESS_UNIT"."WF_AREA"                  9.148 KB       1 rows
+. . exported "STATELESS_UNIT"."COMPANY"                  6.664 KB       1 rows
+. . exported "STATELESS_UNIT"."FUSER"                    15.84 KB       2 rows
+. . exported "STATELESS_UNIT"."XML_VIEW_DEFINITION"       9.25 KB       2 rows
+. . exported "STATELESS_UNIT"."BloodTypes"               6.375 KB       9 rows
+. . exported "STATELESS_UNIT"."COMPANY_USER"             6.328 KB       1 rows
+. . exported "STATELESS_UNIT"."FGROUP"                   12.69 KB       2 rows
+. . exported "STATELESS_UNIT"."FNX_COMPLAINT_APP_GROUP"  5.890 KB       1 rows
+. . exported "STATELESS_UNIT"."FUSER_HISTORY"            7.046 KB       2 rows
+. . exported "STATELESS_UNIT"."FVERSION"                 6.914 KB      17 rows
+. . exported "STATELESS_UNIT"."GROUP_WEB_MODULE"         7.257 KB      36 rows
+. . exported "STATELESS_UNIT"."Gender"                   6.390 KB       5 rows
+. . exported "STATELESS_UNIT"."LANGUAGE"                  6.25 KB       1 rows
+. . exported "STATELESS_UNIT"."MaritalStatus"            6.859 KB       7 rows
+. . exported "STATELESS_UNIT"."Nationality"              9.093 KB     105 rows
+. . exported "STATELESS_UNIT"."OfficialDocumentType"     13.07 KB     119 rows
+. . exported "STATELESS_UNIT"."PERSONS_APP_GROUP"        8.031 KB       1 rows
+. . exported "STATELESS_UNIT"."PHOTO_ALBUM_APP_GROUP"    6.343 KB       1 rows
+. . exported "STATELESS_UNIT"."PortalAppGroup"           6.367 KB       1 rows
+. . exported "STATELESS_UNIT"."PortalCompStatus"         7.007 KB      13 rows
+. . exported "STATELESS_UNIT"."PortalCompSubject"        6.070 KB       5 rows
+. . exported "STATELESS_UNIT"."Profession"               10.66 KB     106 rows
+. . exported "STATELESS_UNIT"."StlsBirthPlaceType"       5.937 KB       3 rows
+. . exported "STATELESS_UNIT"."StlsDocStatus"            5.484 KB       2 rows
+. . exported "STATELESS_UNIT"."StlsDocType"              7.359 KB      13 rows
+. . exported "STATELESS_UNIT"."StlsGuardianRelation"     5.515 KB       5 rows
+. . exported "STATELESS_UNIT"."StlsHospital"             6.218 KB      19 rows
+. . exported "STATELESS_UNIT"."StlsRepresentativeType"   5.484 KB       2 rows
+. . exported "STATELESS_UNIT"."WF_ASSIGNEMENT"           11.77 KB       7 rows
+. . exported "STATELESS_UNIT"."WF_OPERATOR"              6.718 KB       1 rows
+. . exported "STATELESS_UNIT"."WF_RIGHT_LEVEL"           13.15 KB       1 rows
+. . exported "STATELESS_UNIT"."WF_STAGE"                 6.960 KB       7 rows
+. . exported "STATELESS_UNIT"."WF_TITLE"                 6.695 KB       1 rows
+. . exported "STATELESS_UNIT"."WF_USER_TRANS_RIGHT"      7.132 KB       1 rows
+. . exported "STATELESS_UNIT"."ACC_DEPARTMENT"               0 KB       0 rows
+. . exported "STATELESS_UNIT"."ADM_MENU_ACCESS_RIGHT"        0 KB       0 rows
+. . exported "STATELESS_UNIT"."ADR_BK_CONTACT"               0 KB       0 rows
+. . exported "STATELESS_UNIT"."ADR_BK_POSITION"              0 KB       0 rows
+. . exported "STATELESS_UNIT"."Addresses"                    0 KB       0 rows
+. . exported "STATELESS_UNIT"."Area"                         0 KB       0 rows
+. . exported "STATELESS_UNIT"."BROWSE_COLUMN"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."BloodRelationship"            0 KB       0 rows
+. . exported "STATELESS_UNIT"."BroadcastMessage"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT"                    0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_ACCUSATION"         0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_ACC_CAT"            0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_CLAIMER"            0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_DEFENDANT"          0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_FACILITY"           0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_HOTLINE"            0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_INVRECORD"          0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_PENALTY"            0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_REFERRALS"          0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_REPORT"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_REPORT_RES"         0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_REPORT_SUGG"        0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_RESULT"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_SOURCE"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_SUGGESTION"         0 KB       0 rows
+. . exported "STATELESS_UNIT"."COMPLAINT_WITNESS"            0 KB       0 rows
+. . exported "STATELESS_UNIT"."CONFIG_BUSINESS"              0 KB       0 rows
+. . exported "STATELESS_UNIT"."COUNTRY_CITY"                 0 KB       0 rows
+. . exported "STATELESS_UNIT"."COUNTRY_REGION"               0 KB       0 rows
+. . exported "STATELESS_UNIT"."CURR"                         0 KB       0 rows
+. . exported "STATELESS_UNIT"."CURR_CONFIG"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."CURR_DATES"                   0 KB       0 rows
+. . exported "STATELESS_UNIT"."CURR_RATES"                   0 KB       0 rows
+. . exported "STATELESS_UNIT"."Chat"                         0 KB       0 rows
+. . exported "STATELESS_UNIT"."ChatReceiver"                 0 KB       0 rows
+. . exported "STATELESS_UNIT"."Cities"                       0 KB       0 rows
+. . exported "STATELESS_UNIT"."ClaimSource"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."Color"                        0 KB       0 rows
+. . exported "STATELESS_UNIT"."ContactPhones"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."Contacts"                     0 KB       0 rows
+. . exported "STATELESS_UNIT"."Country"                      0 KB       0 rows
+. . exported "STATELESS_UNIT"."CrimeLocations"               0 KB       0 rows
+. . exported "STATELESS_UNIT"."CrimeMethod"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."CrimeMotive"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."CrimeType"                    0 KB       0 rows
+. . exported "STATELESS_UNIT"."DETAILS_FEILD_DEFINITION"      0 KB       0 rows
+. . exported "STATELESS_UNIT"."DIVISION"                     0 KB       0 rows
+. . exported "STATELESS_UNIT"."DOCUMENT_TYPE"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."DOC_MSG"                      0 KB       0 rows
+. . exported "STATELESS_UNIT"."DOC_MSG_CONTENT"              0 KB       0 rows
+. . exported "STATELESS_UNIT"."DOC_RIGHTS_GROUP"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."DOC_RIGHTS_GROUP_USERS"       0 KB       0 rows
+. . exported "STATELESS_UNIT"."DOC_TYPE_ACCESS"              0 KB       0 rows
+. . exported "STATELESS_UNIT"."DOWNLOADABLE_CONTENT"         0 KB       0 rows
+. . exported "STATELESS_UNIT"."DamageDone"                   0 KB       0 rows
+. . exported "STATELESS_UNIT"."DamageValue"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."Damages"                      0 KB       0 rows
+. . exported "STATELESS_UNIT"."District"                     0 KB       0 rows
+. . exported "STATELESS_UNIT"."EMailAccount"                 0 KB       0 rows
+. . exported "STATELESS_UNIT"."FAB_DICT_GRP"                 0 KB       0 rows
+. . exported "STATELESS_UNIT"."FAB_MULTIPLE_CHOICE"          0 KB       0 rows
+. . exported "STATELESS_UNIT"."FAB_MULTIPLE_CHOICE_SET"      0 KB       0 rows
+. . exported "STATELESS_UNIT"."FAB_PROJECT"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."FAB_WORKSPACE"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."FCOUNTRY"                     0 KB       0 rows
+. . exported "STATELESS_UNIT"."FIELD_DEFINITION"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."FILTER_DEFINITION"            0 KB       0 rows
+. . exported "STATELESS_UNIT"."FILTER_FIELD_DEFINITION"      0 KB       0 rows
+. . exported "STATELESS_UNIT"."FNotifTrigReport"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."FNotifTrigger"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."FOC_LINK_IN_RIGHTS"           0 KB       0 rows
+. . exported "STATELESS_UNIT"."FOC_LINK_IN_RIGHTS_DETAILS"      0 KB       0 rows
+. . exported "STATELESS_UNIT"."FOC_LINK_OUT_LOG"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."FOC_LINK_OUT_LOG_DETAILS"      0 KB       0 rows
+. . exported "STATELESS_UNIT"."FOC_LINK_OUT_RIGHTS"          0 KB       0 rows
+. . exported "STATELESS_UNIT"."FOC_LINK_OUT_RIGHTS_DETAILS"      0 KB       0 rows
+. . exported "STATELESS_UNIT"."FOC_PAGE_LINK"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."GROUP_MOBILE_MODULE"          0 KB       0 rows
+. . exported "STATELESS_UNIT"."GROUP_VIEW_RIGHTS"            0 KB       0 rows
+. . exported "STATELESS_UNIT"."GROUP_XML_VIEW_RIGHTS"        0 KB       0 rows
+. . exported "STATELESS_UNIT"."InsuranceType"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."InvSumRep"                    0 KB       0 rows
+. . exported "STATELESS_UNIT"."InvSumRepParticip"            0 KB       0 rows
+. . exported "STATELESS_UNIT"."InvSumRepStatus"              0 KB       0 rows
+. . exported "STATELESS_UNIT"."InvSumRepVictims"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."InvestSumReportRole"          0 KB       0 rows
+. . exported "STATELESS_UNIT"."InvestigationResults"         0 KB       0 rows
+. . exported "STATELESS_UNIT"."Investigators"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."JobDescriptions"              0 KB       0 rows
+. . exported "STATELESS_UNIT"."JudgeinCharge"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."MENU_DEFINITION"              0 KB       0 rows
+. . exported "STATELESS_UNIT"."MENU_RIGHTS"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."MIG_DB_CREDENTIALS"           0 KB       0 rows
+. . exported "STATELESS_UNIT"."MIG_DIRECTORY"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."MIG_FIELD_MAP"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."MIG_SOURCE"                   0 KB       0 rows
+. . exported "STATELESS_UNIT"."NOTIF_EMAIL"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."NOTIF_EMAIL_TEMPLATE"         0 KB       0 rows
+. . exported "STATELESS_UNIT"."OtherCrime"                   0 KB       0 rows
+. . exported "STATELESS_UNIT"."PHOTO_ALBUM"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."PHOTO_ALBUM_ACCESS"           0 KB       0 rows
+. . exported "STATELESS_UNIT"."PHOTO_ALBUM_CONFIG"           0 KB       0 rows
+. . exported "STATELESS_UNIT"."PIVOT_VIEW"                   0 KB       0 rows
+. . exported "STATELESS_UNIT"."PRN_REPORT_DEFINITION"        0 KB       0 rows
+. . exported "STATELESS_UNIT"."PersonBulletin"               0 KB       0 rows
+. . exported "STATELESS_UNIT"."PersonInsurance"              0 KB       0 rows
+. . exported "STATELESS_UNIT"."PersonTrait"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."PortalComplaint"              0 KB       0 rows
+. . exported "STATELESS_UNIT"."PortalUser"                   0 KB       0 rows
+. . exported "STATELESS_UNIT"."Ranks"                        0 KB       0 rows
+. . exported "STATELESS_UNIT"."Region"                       0 KB       0 rows
+. . exported "STATELESS_UNIT"."RestrictContacts"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."SAAS_CONFIG"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."StatelessCase"                0 KB       0 rows
+. . exported "STATELESS_UNIT"."StlsDocument"                 0 KB       0 rows
+. . exported "STATELESS_UNIT"."StlsNonRegistryReason"        0 KB       0 rows
+. . exported "STATELESS_UNIT"."StlsPerson"                   0 KB       0 rows
+. . exported "STATELESS_UNIT"."StlsReason"                   0 KB       0 rows
+. . exported "STATELESS_UNIT"."Streets"                      0 KB       0 rows
+. . exported "STATELESS_UNIT"."TABLE_DEFINITION"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."Trait"                        0 KB       0 rows
+. . exported "STATELESS_UNIT"."TransferedTo"                 0 KB       0 rows
+. . exported "STATELESS_UNIT"."UNDERLYING_CUST_FIELD"        0 KB       0 rows
+. . exported "STATELESS_UNIT"."UNDERLYING_CUST_TABLE"        0 KB       0 rows
+. . exported "STATELESS_UNIT"."USER_BROWSE_VIEW_DEFINITION"      0 KB       0 rows
+. . exported "STATELESS_UNIT"."USER_DETAILS_VIEW_DEFINTION"      0 KB       0 rows
+. . exported "STATELESS_UNIT"."USER_HTML_FORMS"              0 KB       0 rows
+. . exported "STATELESS_UNIT"."USER_VIEW"                    0 KB       0 rows
+. . exported "STATELESS_UNIT"."Users"                        0 KB       0 rows
+. . exported "STATELESS_UNIT"."VIEW_COLUMNS"                 0 KB       0 rows
+. . exported "STATELESS_UNIT"."VIEW_CONFIG"                  0 KB       0 rows
+. . exported "STATELESS_UNIT"."WF_FIELD_LOCK_STAGE"          0 KB       0 rows
+. . exported "STATELESS_UNIT"."WF_LOG_COMPLAINT"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."WF_LOG_COMPLAINT_HOTLINE"      0 KB       0 rows
+. . exported "STATELESS_UNIT"."WF_LOG_COMPLAINT_INVRECORD"      0 KB       0 rows
+. . exported "STATELESS_UNIT"."WF_LOG_COMPLAINT_REPORT"      0 KB       0 rows
+. . exported "STATELESS_UNIT"."WF_LOG_Contacts"              0 KB       0 rows
+. . exported "STATELESS_UNIT"."WF_LOG_InvSumRep"             0 KB       0 rows
+. . exported "STATELESS_UNIT"."WF_LOG_PortalComplaint"       0 KB       0 rows
+. . exported "STATELESS_UNIT"."WF_LOG_StatelessCase"         0 KB       0 rows
+. . exported "STATELESS_UNIT"."WF_MAP"                       0 KB       0 rows
+. . exported "STATELESS_UNIT"."WF_SIGNATURE"                 0 KB       0 rows
+. . exported "STATELESS_UNIT"."Writers"                      0 KB       0 rows
+. . exported "STATELESS_UNIT"."XML_VIEW_BY_USER"             0 KB       0 rows
+Master table "STATELESS_UNIT"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for STATELESS_UNIT.SYS_EXPORT_SCHEMA_01 is:
+  C:\ECLIPSEWS\FENIX\FENIX_STATELESS\UNIT\UNIT.DMP
+Job "STATELESS_UNIT"."SYS_EXPORT_SCHEMA_01" successfully completed at 09:29:26

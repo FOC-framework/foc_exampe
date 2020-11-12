@@ -1,0 +1,24 @@
+<VerticalLayout margin="true" width="95%" captionMargin="0"
+	spacing="true">
+	<ValidationSettings withApply="true" withAttach="true" withPrint="false" />
+	<HorizontalLayout captionMargin="0" spacing="true">
+		<GuiField name="FirstName" caption="First name" width="180px" />
+		<GuiField name="LastName" caption="Last name" width="180px" />
+		<GuiField name="DateOfBirth" caption="Date of birth" width="180px" />
+	</HorizontalLayout>
+	<HorizontalLayout captionMargin="0" spacing="true">
+		<GuiField name="EmployeeStatus" caption="Status" width="180px" />
+		<GuiField name="HasInsurance" caption="Has Insurance" width="180px" />
+	</HorizontalLayout>
+	<HorizontalLayout captionMargin="0" spacing="true">
+		<GuiField name="StartShift" caption="Shift start" width="180px" />
+		<GuiField name="EndShift" caption="Shift end" width="180px" />
+		<GuiField name="Salary" caption="Salary" width="180px" />
+	</HorizontalLayout>
+	<GuiTable name="ACHIEVMENT_LIST" dataPath="Achievement_LIST"
+		width="100%" height="-1px" inLineEditable="true">
+		<TableColumn name="Description" caption="Description" />
+		<TableColumn name="Date" caption="Date" />
+		<TableColumn name="Rating" caption="Rating" />
+	</GuiTable>
+</VerticalLayout> 

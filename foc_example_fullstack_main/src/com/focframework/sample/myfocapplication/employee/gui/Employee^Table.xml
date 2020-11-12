@@ -1,0 +1,11 @@
+<VerticalLayout margin="true" width="100%" captionMargin="0" spacing="true">
+  <ValidationSettings withApply="false" withAttach="false" withPrint="false" />
+ 
+	<GuiTable name="DB_TABLE_NAME_TABLE" dataPath="DATAROOT" width="100%" height="99%">
+		<TableColumn name="FirstName" caption="FirstName" link="true"/>
+		<TableColumn name="LastName" caption="LastName" link="true"/>
+		<TableColumn name="StartShift" caption="StartShift" />
+		<TableColumn name="EndShift" caption="EndShift" />
+	</GuiTable>
+  
+</VerticalLayout> 

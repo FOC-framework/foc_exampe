@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                            
+    
+    
+    
+    
+    
+    <wb-module deploy-name="fenix_covid-0.0.1-SNAPSHOT">
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                                                        
+        
+        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                                                        
+        
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="focWebServer-1.7.4-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/focWebServer/focWebServer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="focAPI-1.7.4-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/focAPI/focAPI">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="focShared-1.7.4-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/focShared/focShared">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="foc-1.7.4-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/foc/foc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="focVaadinTheme-1.7.4-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/focVaadinTheme/focVaadinTheme">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="focOfficeLink-1.7.4-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/focOfficeLink/focOfficeLink">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="focDataSource-1.7.4-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/focDataSource_DB/focDataSource_DB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                                                        
+        
+        
+        
+        
+        
+        <property name="java-output-path" value="/fenix/build/classes"/>
+                                
+        
+        
+        <property name="component.exclusion.patterns"/>
+        <property name="context-root" value="fenix_covid"/>
+                                                    
+    
+    
+    
+    
+    
+    </wb-module>
+                        
+
+
+
+
+
+</project-modules>

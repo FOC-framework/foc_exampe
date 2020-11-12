@@ -1,0 +1,12 @@
+@import "myfoctheme.scss";
+@import "addons.scss";
+@import "../focVaadinTheme/focVaadinTheme.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in myfoctheme.scss
+
+.myfoctheme {
+  @include focVaadinTheme;
+  @include addons;
+  @include myfoctheme;
+}

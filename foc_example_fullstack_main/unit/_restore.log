@@ -1,0 +1,369 @@
+;;; 
+Import: Release 11.2.0.2.0 - Production on Thu Jul 25 07:49:47 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Master table "STATELESS_UNIT"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "STATELESS_UNIT"."SYS_IMPORT_FULL_01":  STATELESS_UNIT/******** directory=ECLIPSE_STATELESS_UNIT dumpfile=unit.dmp logfile=_restore.log TABLE_EXISTS_ACTION=REPLACE 
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."TABLE_DEFINITION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FIELD_DEFINITION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."UNDERLYING_CUST_TABLE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."UNDERLYING_CUST_FIELD_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FVERSION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FUSER_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FGROUP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."USER_VIEW_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."VIEW_CONFIG_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."VIEW_COLUMNS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."MENU_RIGHTS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."GROUP_VIEW_RIGHTS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."GROUP_MOBILE_MODULE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."GROUP_WEB_MODULE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."ADM_MENU_ACCESS_RIGHT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."LANGUAGE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."GROUP_XML_VIEW_RIGHTS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DOC_RIGHTS_GROUP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DOC_RIGHTS_GROUP_USERS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."SAAS_CONFIG_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."XML_VIEW_DEFINITION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PRN_REPORT_DEFINITION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."XML_VIEW_BY_USER_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FUSER_HISTORY_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."NOTIF_EMAIL_TEMPLATE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FOC_PAGE_LINK_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DOC_MSG_CONTENT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DOC_MSG_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."BROADCASTMESSAGE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."EMAILACCOUNT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FNOTIFTRIGGER_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FNOTIFTRIGREPORT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FOC_LINK_OUT_LOG_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FOC_LINK_OUT_LOG_DETAILS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FOC_LINK_OUT_RIGHTS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FOC_LINK_OUT_RIGHTS_DETAILS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FOC_LINK_IN_RIGHTS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FOC_LINK_IN_RIGHTS_DETAILS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FNX_COMPLAINT_APP_GROUP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_ACCUSATION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_ACC_CAT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_CLAIMER_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_DEFENDANT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_FACILITY_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_INVRECORD_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_PENALTY_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_REFERRALS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_REPORT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_REPORT_RES_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_REPORT_SUGG_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_RESULT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_SOURCE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_SUGGESTION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_WITNESS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPLAINT_HOTLINE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."ADDRESSES_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."AREA_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."BLOODTYPES_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."BLOODRELATIONSHIP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CITIES_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CONTACTS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CONTACTPHONES_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COUNTRY_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DISTRICT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."GENDER_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."INVESTIGATORS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."JOBDESCRIPTIONS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."MARITALSTATUS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."NATIONALITY_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."OFFICIALDOCUMENTTYPE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PROFESSION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."RANKS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."REGION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."STREETS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WRITERS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CRIMETYPE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COLOR_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CHATRECEIVER_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."MIG_SOURCE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."MIG_DB_CREDENTIALS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."MIG_DIRECTORY_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."MIG_FIELD_MAP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CURR_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CURR_RATES_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CURR_DATES_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CURR_CONFIG_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPANY_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COMPANY_USER_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CONFIG_BUSINESS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."ADR_BK_PARTY_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."ADR_BK_CONTACT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."ADR_BK_POSITION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FCOUNTRY_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COUNTRY_REGION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."COUNTRY_CITY_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."ACC_DEPARTMENT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DIVISION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DOWNLOADABLE_CONTENT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FAB_WORKSPACE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FAB_PROJECT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FAB_MULTIPLE_CHOICE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FAB_MULTIPLE_CHOICE_SET_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."MENU_DEFINITION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."USER_DETAILS_VIEW_DEFINTION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DETAILS_FEILD_DEFINITION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."USER_HTML_FORMS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."USER_BROWSE_VIEW_DEFINITION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."BROWSE_COLUMN_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FILTER_DEFINITION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FILTER_FIELD_DEFINITION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."FAB_DICT_GRP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PIVOT_VIEW_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PORTALAPPGROUP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PORTALCOMPLAINT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PORTALCOMPSTATUS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PORTALCOMPSUBJECT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PORTALUSER_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_AREA_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_TITLE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_OPERATOR_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_MAP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_SIGNATURE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_STAGE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_ASSIGNEMENT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_FIELD_LOCK_STAGE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_RIGHT_LEVEL_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_USER_TRANS_RIGHT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."RESTRICTCONTACTS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PERSONTRAIT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."TRAIT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PERSONBULLETIN_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."INSURANCETYPE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PERSONINSURANCE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PERSONS_APP_GROUP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PHOTO_ALBUM_CONFIG_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PHOTO_ALBUM_APP_GROUP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PHOTO_ALBUM_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."PHOTO_ALBUM_ACCESS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DOCUMENT_TYPE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DOC_TYPE_ACCESS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."INVSUMREP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CRIMEMETHOD_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."INVESTIGATIONRESULTS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."USERS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CRIMEMOTIVE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CLAIMSOURCE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CRIMELOCATIONS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DAMAGES_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DAMAGEDONE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."INVSUMREPPARTICIP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."INVSUMREPVICTIMS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."OTHERCRIME_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."INVSUMREPSTATUS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."INVESTSUMREPORTROLE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."JUDGEINCHARGE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."DAMAGEVALUE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."TRANSFEREDTO_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."STATELESSCASE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."STLSNONREGISTRYREASON_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."STLSPERSON_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."STLSDOCTYPE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."NOTIF_EMAIL_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_LOG_CONTACTS_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."CHAT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_LOG_INVSUMREP_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_LOG_PORTALCOMPLAINT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_LOG_COMPLAINT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_LOG_COMPLAINT_INVRECORD_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_LOG_COMPLAINT_REPORT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_LOG_COMPLAINT_HOTLINE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."WF_LOG_STATELESSCASE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."STLSGUARDIANRELATION_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."STLSREPRESENTATIVETYPE_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."STLSDOCUMENT_SQ" already exists
+ORA-31684: Object type SEQUENCE:"FENIX_STATELESS"."STLSDOCSTATUS_SQ" already exists
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "FENIX_STATELESS"."WF_LOG_Contacts"         14.97 KB       3 rows
+. . imported "FENIX_STATELESS"."ADR_BK_PARTY"            15.33 KB       1 rows
+. . imported "FENIX_STATELESS"."WF_AREA"                 9.148 KB       1 rows
+. . imported "FENIX_STATELESS"."COMPANY"                 6.664 KB       1 rows
+. . imported "FENIX_STATELESS"."FUSER"                   15.84 KB       2 rows
+. . imported "FENIX_STATELESS"."XML_VIEW_DEFINITION"     9.257 KB       2 rows
+. . imported "FENIX_STATELESS"."BloodTypes"              6.375 KB       9 rows
+. . imported "FENIX_STATELESS"."COMPANY_USER"            6.328 KB       1 rows
+. . imported "FENIX_STATELESS"."Contacts"                26.41 KB       1 rows
+. . imported "FENIX_STATELESS"."FGROUP"                  12.69 KB       2 rows
+. . imported "FENIX_STATELESS"."FNX_COMPLAINT_APP_GROUP"  5.890 KB       1 rows
+. . imported "FENIX_STATELESS"."FUSER_HISTORY"           6.984 KB       2 rows
+. . imported "FENIX_STATELESS"."FVERSION"                6.914 KB      17 rows
+. . imported "FENIX_STATELESS"."GROUP_WEB_MODULE"        7.257 KB      36 rows
+. . imported "FENIX_STATELESS"."Gender"                  6.390 KB       5 rows
+. . imported "FENIX_STATELESS"."LANGUAGE"                 6.25 KB       1 rows
+. . imported "FENIX_STATELESS"."MaritalStatus"           6.859 KB       7 rows
+. . imported "FENIX_STATELESS"."Nationality"             9.093 KB     105 rows
+. . imported "FENIX_STATELESS"."OfficialDocumentType"    13.07 KB     119 rows
+. . imported "FENIX_STATELESS"."PERSONS_APP_GROUP"       8.031 KB       1 rows
+. . imported "FENIX_STATELESS"."PHOTO_ALBUM_APP_GROUP"   6.343 KB       1 rows
+. . imported "FENIX_STATELESS"."PortalAppGroup"          6.367 KB       1 rows
+. . imported "FENIX_STATELESS"."PortalCompStatus"        7.007 KB      13 rows
+. . imported "FENIX_STATELESS"."PortalCompSubject"       6.070 KB       5 rows
+. . imported "FENIX_STATELESS"."Profession"              10.66 KB     106 rows
+. . imported "FENIX_STATELESS"."StlsDocStatus"           5.484 KB       2 rows
+. . imported "FENIX_STATELESS"."StlsDocType"             6.046 KB       6 rows
+. . imported "FENIX_STATELESS"."StlsGuardianRelation"    5.515 KB       5 rows
+. . imported "FENIX_STATELESS"."StlsRepresentativeType"  5.484 KB       2 rows
+. . imported "FENIX_STATELESS"."WF_ASSIGNEMENT"          11.77 KB       7 rows
+. . imported "FENIX_STATELESS"."WF_OPERATOR"             6.718 KB       1 rows
+. . imported "FENIX_STATELESS"."WF_RIGHT_LEVEL"          13.15 KB       1 rows
+. . imported "FENIX_STATELESS"."WF_STAGE"                6.960 KB       7 rows
+. . imported "FENIX_STATELESS"."WF_TITLE"                6.695 KB       1 rows
+. . imported "FENIX_STATELESS"."WF_USER_TRANS_RIGHT"     7.132 KB       1 rows
+. . imported "FENIX_STATELESS"."ACC_DEPARTMENT"              0 KB       0 rows
+. . imported "FENIX_STATELESS"."ADM_MENU_ACCESS_RIGHT"       0 KB       0 rows
+. . imported "FENIX_STATELESS"."ADR_BK_CONTACT"              0 KB       0 rows
+. . imported "FENIX_STATELESS"."ADR_BK_POSITION"             0 KB       0 rows
+. . imported "FENIX_STATELESS"."Addresses"                   0 KB       0 rows
+. . imported "FENIX_STATELESS"."Area"                        0 KB       0 rows
+. . imported "FENIX_STATELESS"."BROWSE_COLUMN"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."BloodRelationship"           0 KB       0 rows
+. . imported "FENIX_STATELESS"."BroadcastMessage"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT"                   0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_ACCUSATION"        0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_ACC_CAT"           0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_CLAIMER"           0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_DEFENDANT"         0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_FACILITY"          0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_HOTLINE"           0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_INVRECORD"         0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_PENALTY"           0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_REFERRALS"         0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_REPORT"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_REPORT_RES"        0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_REPORT_SUGG"       0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_RESULT"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_SOURCE"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_SUGGESTION"        0 KB       0 rows
+. . imported "FENIX_STATELESS"."COMPLAINT_WITNESS"           0 KB       0 rows
+. . imported "FENIX_STATELESS"."CONFIG_BUSINESS"             0 KB       0 rows
+. . imported "FENIX_STATELESS"."COUNTRY_CITY"                0 KB       0 rows
+. . imported "FENIX_STATELESS"."COUNTRY_REGION"              0 KB       0 rows
+. . imported "FENIX_STATELESS"."CURR"                        0 KB       0 rows
+. . imported "FENIX_STATELESS"."CURR_CONFIG"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."CURR_DATES"                  0 KB       0 rows
+. . imported "FENIX_STATELESS"."CURR_RATES"                  0 KB       0 rows
+. . imported "FENIX_STATELESS"."Chat"                        0 KB       0 rows
+. . imported "FENIX_STATELESS"."ChatReceiver"                0 KB       0 rows
+. . imported "FENIX_STATELESS"."Cities"                      0 KB       0 rows
+. . imported "FENIX_STATELESS"."ClaimSource"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."Color"                       0 KB       0 rows
+. . imported "FENIX_STATELESS"."ContactPhones"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."Country"                     0 KB       0 rows
+. . imported "FENIX_STATELESS"."CrimeLocations"              0 KB       0 rows
+. . imported "FENIX_STATELESS"."CrimeMethod"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."CrimeMotive"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."CrimeType"                   0 KB       0 rows
+. . imported "FENIX_STATELESS"."DETAILS_FEILD_DEFINITION"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."DIVISION"                    0 KB       0 rows
+. . imported "FENIX_STATELESS"."DOCUMENT_TYPE"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."DOC_MSG"                     0 KB       0 rows
+. . imported "FENIX_STATELESS"."DOC_MSG_CONTENT"             0 KB       0 rows
+. . imported "FENIX_STATELESS"."DOC_RIGHTS_GROUP"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."DOC_RIGHTS_GROUP_USERS"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."DOC_TYPE_ACCESS"             0 KB       0 rows
+. . imported "FENIX_STATELESS"."DOWNLOADABLE_CONTENT"        0 KB       0 rows
+. . imported "FENIX_STATELESS"."DamageDone"                  0 KB       0 rows
+. . imported "FENIX_STATELESS"."DamageValue"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."Damages"                     0 KB       0 rows
+. . imported "FENIX_STATELESS"."District"                    0 KB       0 rows
+. . imported "FENIX_STATELESS"."EMailAccount"                0 KB       0 rows
+. . imported "FENIX_STATELESS"."FAB_DICT_GRP"                0 KB       0 rows
+. . imported "FENIX_STATELESS"."FAB_MULTIPLE_CHOICE"         0 KB       0 rows
+. . imported "FENIX_STATELESS"."FAB_MULTIPLE_CHOICE_SET"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."FAB_PROJECT"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."FAB_WORKSPACE"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."FCOUNTRY"                    0 KB       0 rows
+. . imported "FENIX_STATELESS"."FIELD_DEFINITION"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."FILTER_DEFINITION"           0 KB       0 rows
+. . imported "FENIX_STATELESS"."FILTER_FIELD_DEFINITION"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."FNotifTrigReport"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."FNotifTrigger"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."FOC_LINK_IN_RIGHTS"          0 KB       0 rows
+. . imported "FENIX_STATELESS"."FOC_LINK_IN_RIGHTS_DETAILS"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."FOC_LINK_OUT_LOG"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."FOC_LINK_OUT_LOG_DETAILS"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."FOC_LINK_OUT_RIGHTS"         0 KB       0 rows
+. . imported "FENIX_STATELESS"."FOC_LINK_OUT_RIGHTS_DETAILS"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."FOC_PAGE_LINK"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."GROUP_MOBILE_MODULE"         0 KB       0 rows
+. . imported "FENIX_STATELESS"."GROUP_VIEW_RIGHTS"           0 KB       0 rows
+. . imported "FENIX_STATELESS"."GROUP_XML_VIEW_RIGHTS"       0 KB       0 rows
+. . imported "FENIX_STATELESS"."InsuranceType"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."InvSumRep"                   0 KB       0 rows
+. . imported "FENIX_STATELESS"."InvSumRepParticip"           0 KB       0 rows
+. . imported "FENIX_STATELESS"."InvSumRepStatus"             0 KB       0 rows
+. . imported "FENIX_STATELESS"."InvSumRepVictims"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."InvestSumReportRole"         0 KB       0 rows
+. . imported "FENIX_STATELESS"."InvestigationResults"        0 KB       0 rows
+. . imported "FENIX_STATELESS"."Investigators"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."JobDescriptions"             0 KB       0 rows
+. . imported "FENIX_STATELESS"."JudgeinCharge"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."MENU_DEFINITION"             0 KB       0 rows
+. . imported "FENIX_STATELESS"."MENU_RIGHTS"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."MIG_DB_CREDENTIALS"          0 KB       0 rows
+. . imported "FENIX_STATELESS"."MIG_DIRECTORY"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."MIG_FIELD_MAP"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."MIG_SOURCE"                  0 KB       0 rows
+. . imported "FENIX_STATELESS"."NOTIF_EMAIL"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."NOTIF_EMAIL_TEMPLATE"        0 KB       0 rows
+. . imported "FENIX_STATELESS"."OtherCrime"                  0 KB       0 rows
+. . imported "FENIX_STATELESS"."PHOTO_ALBUM"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."PHOTO_ALBUM_ACCESS"          0 KB       0 rows
+. . imported "FENIX_STATELESS"."PHOTO_ALBUM_CONFIG"          0 KB       0 rows
+. . imported "FENIX_STATELESS"."PIVOT_VIEW"                  0 KB       0 rows
+. . imported "FENIX_STATELESS"."PRN_REPORT_DEFINITION"       0 KB       0 rows
+. . imported "FENIX_STATELESS"."PersonBulletin"              0 KB       0 rows
+. . imported "FENIX_STATELESS"."PersonInsurance"             0 KB       0 rows
+. . imported "FENIX_STATELESS"."PersonTrait"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."PortalComplaint"             0 KB       0 rows
+. . imported "FENIX_STATELESS"."PortalUser"                  0 KB       0 rows
+. . imported "FENIX_STATELESS"."Ranks"                       0 KB       0 rows
+. . imported "FENIX_STATELESS"."Region"                      0 KB       0 rows
+. . imported "FENIX_STATELESS"."RestrictContacts"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."SAAS_CONFIG"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."StatelessCase"               0 KB       0 rows
+. . imported "FENIX_STATELESS"."StlsDocument"                0 KB       0 rows
+. . imported "FENIX_STATELESS"."StlsNonRegistryReason"       0 KB       0 rows
+. . imported "FENIX_STATELESS"."StlsPerson"                  0 KB       0 rows
+. . imported "FENIX_STATELESS"."Streets"                     0 KB       0 rows
+. . imported "FENIX_STATELESS"."TABLE_DEFINITION"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."Trait"                       0 KB       0 rows
+. . imported "FENIX_STATELESS"."TransferedTo"                0 KB       0 rows
+. . imported "FENIX_STATELESS"."UNDERLYING_CUST_FIELD"       0 KB       0 rows
+. . imported "FENIX_STATELESS"."UNDERLYING_CUST_TABLE"       0 KB       0 rows
+. . imported "FENIX_STATELESS"."USER_BROWSE_VIEW_DEFINITION"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."USER_DETAILS_VIEW_DEFINTION"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."USER_HTML_FORMS"             0 KB       0 rows
+. . imported "FENIX_STATELESS"."USER_VIEW"                   0 KB       0 rows
+. . imported "FENIX_STATELESS"."Users"                       0 KB       0 rows
+. . imported "FENIX_STATELESS"."VIEW_COLUMNS"                0 KB       0 rows
+. . imported "FENIX_STATELESS"."VIEW_CONFIG"                 0 KB       0 rows
+. . imported "FENIX_STATELESS"."WF_FIELD_LOCK_STAGE"         0 KB       0 rows
+. . imported "FENIX_STATELESS"."WF_LOG_COMPLAINT"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."WF_LOG_COMPLAINT_HOTLINE"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."WF_LOG_COMPLAINT_INVRECORD"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."WF_LOG_COMPLAINT_REPORT"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."WF_LOG_InvSumRep"            0 KB       0 rows
+. . imported "FENIX_STATELESS"."WF_LOG_PortalComplaint"      0 KB       0 rows
+. . imported "FENIX_STATELESS"."WF_LOG_StatelessCase"        0 KB       0 rows
+. . imported "FENIX_STATELESS"."WF_MAP"                      0 KB       0 rows
+. . imported "FENIX_STATELESS"."WF_SIGNATURE"                0 KB       0 rows
+. . imported "FENIX_STATELESS"."Writers"                     0 KB       0 rows
+. . imported "FENIX_STATELESS"."XML_VIEW_BY_USER"            0 KB       0 rows
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "STATELESS_UNIT"."SYS_IMPORT_FULL_01" completed with 176 error(s) at 07:50:02
